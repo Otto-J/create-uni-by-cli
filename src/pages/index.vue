@@ -2,10 +2,11 @@
 import { ref } from 'vue'
 import Footer from '@/components/Footer.vue'
 
-const title = ref('✨ Hello Uni App! ✨')
+const title = ref('✨ Hello Uni App123! ✨')
 </script>
 
 <template>
+  <div flex="~ col" items-center justify-center />
   <view flex="~ col" items-center justify-center>
     <image
       alt="uni helper logo"
@@ -20,5 +21,5 @@ const title = ref('✨ Hello Uni App! ✨')
       {{ title }}
     </text>
   </view>
-  <Footer />
+  <footer />
 </template>
